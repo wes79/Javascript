@@ -23,7 +23,12 @@ document.addEventListener("DOMContentLoaded", function(event) {
 			{
 				iztegleni.push(iztegleno)
 			}
-			setTimeout(function(){ document.getElementById("numberContainer").innerHTML = iztegleni}, 1000);
+			setTimeout(function()
+				{ 	
+					document.getElementById("numberContainer").innerHTML = iztegleni
+					document.getElementById("numberContainer").style.display="block";
+				}, 2000);
+		
 			
 		}	
 		 

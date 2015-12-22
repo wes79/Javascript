@@ -32,6 +32,16 @@ time, mark, audio, video {
 	position: relative;
 }
 
+#mainContent h1{
+	width: 60%;
+	margin: 0 20%;
+	padding-top: 5%;
+	color: #fff;
+	font-size: 50px;
+	text-transform: uppercase;
+	text-align: center;
+	
+}
 #absolute{
 	width: 50%;
 	position: absolute;
@@ -48,6 +58,7 @@ time, mark, audio, video {
 	font-size: 80px;
 	color: #000;
 	text-align: center;
+	display: none;
 
 }
 
