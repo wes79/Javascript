@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
 				{ 	
 					document.getElementById("numberContainer").innerHTML = iztegleni
 					document.getElementById("numberContainer").style.display="block";
-				}, 2000);
+				}, 1000);
 		
 			
 		}	
